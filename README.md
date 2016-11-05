@@ -2,11 +2,15 @@
 
 #### Android 7.1 App Shortcus API Example
 
+![alt tag](https://github.com/pranaypatel512/AppShortCut/blob/master/App-Shortcuts.gif)
+
+Android 7.1 allows you to define shortcuts to specific actions in your app. Shortcuts let your users quickly start common or recommended tasks within your app.
+
 #####Developer can publish two different types of shortcuts for your app:
 
 *Static shortcuts are defined in a resource file that is packaged into an APK. 
   
-  ```
+  ```xml
   <?xml version="1.0" encoding="utf-8"?>
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
     <shortcut
@@ -31,7 +35,7 @@
 
 *Dynamic shortcuts are published at runtime using the ShortcutManager API. During runtime, your app can publish, update, and remove its dynamic shortcuts.
   
-  ```
+  ```java
    private void AddAnotherShortcutDynamically() {
         ShortcutManager shortcutManager;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
