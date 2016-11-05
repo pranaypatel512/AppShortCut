@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppShortCut</string>
+    <string name="str_long_label">Shortcut using xml</string>
+    <string name="str_short_label">Shortcut 1 </string>
+    <string name="str_disable_message">Disable Message</string>
+    <string name="this_activity_open_from_shortcut">This activity open from shortcut</string>
+    <string name="this_is_mainactivity">This is Main Activity</string>
+    <string name="str_shortcut_two">Shortcut 2</string>
+    <string name="str_shortcut_two_desc">Shortcut using code</string>
+</resources>
