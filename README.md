@@ -8,7 +8,7 @@ Android 7.1 allows you to define shortcuts to specific actions in your app. Shor
 
 #####Developer can publish two different types of shortcuts for your app:
 
-*Static shortcuts are defined in a resource file that is packaged into an APK. 
+1. Static shortcuts are defined in a resource file that is packaged into an APK. 
   
   ```xml
   <?xml version="1.0" encoding="utf-8"?>
@@ -33,7 +33,7 @@ Android 7.1 allows you to define shortcuts to specific actions in your app. Shor
 </shortcuts>
   ```
 
-*Dynamic shortcuts are published at runtime using the ShortcutManager API. During runtime, your app can publish, update, and remove its dynamic shortcuts.
+2. Dynamic shortcuts are published at runtime using the ShortcutManager API. During runtime, your app can publish, update, and remove its dynamic shortcuts.
   
   ```java
    private void AddAnotherShortcutDynamically() {
